@@ -4,9 +4,6 @@ from os import path
 
 class YamlParser(object):
     def parse(self, file_path, result=None):
-        if not path.exists(file_path):
-            raise Exception('File {} does not exists'.format(file_path))
-
         data_buffer = yaml.load(open(file_path, 'r').read())
 
         result = {} if result is None else result
