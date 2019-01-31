@@ -6,7 +6,7 @@ from phulpy import task
 
 @task
 def test(phulpy):
-    phulpy.start(['lint', 'unit_test', 'functional_test'])
+    phulpy.start(['lint', 'unit_test'])
 
 
 @task
