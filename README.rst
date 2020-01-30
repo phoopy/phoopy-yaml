@@ -5,6 +5,8 @@ phoopy-yaml
 
 Yaml parsing library for phoopy framework
 
+`Documentation <https://github.com/phoopy/phoopy-yaml/blob/master/DOCUMENTATION.md>`_
+
 
 .. |Build Status| image:: https://travis-ci.org/phoopy/phoopy-yaml.svg
    :target: https://travis-ci.org/phoopy/phoopy-yaml
