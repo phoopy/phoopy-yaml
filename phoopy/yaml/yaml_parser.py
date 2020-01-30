@@ -1,10 +1,10 @@
-import yaml
+from yaml import load, Loader
 from os import path
 
 
 class YamlParser(object):
     def parse(self, file_path, result=None):
-        data_buffer = yaml.load(open(file_path, 'r').read())
+        data_buffer = load(open(file_path, 'r').read(), Loader=Loader)
 
         result = {} if result is None else result
         for key in data_buffer:
