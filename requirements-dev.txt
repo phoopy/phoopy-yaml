@@ -4,5 +4,5 @@ pep8-naming==0.7.0
 pep8==1.7.1
 phulpy==1.0.3
 pytest-cov==2.5.1
-pytest==3.6.3
+pytest==9.0.3
 pyfakefs==3.5.6
